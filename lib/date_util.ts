@@ -8,6 +8,11 @@ export default class DateUtil {
   static DAY = 24 * DateUtil.HOUR;
   static WEEK = 7 * DateUtil.DAY;
 
+  static timeZonedDateNow(): Date {
+    const brTime = utcToZonedTime(new Date(), timezone);
+    return brTime;
+  }
+
   /**
    *
    * @param dateString - Exemplo: 2013-09-23 00:00:00
