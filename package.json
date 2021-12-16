@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rafaeljustinox/justino_node_tools.git"
+    "url": "https://github.com/rafaeljustinox/justino-utils.git"
   },
   "keywords": [
     "winthor",
@@ -26,9 +26,9 @@
   },
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/rafaeljustinox/justino_node_tools.git/issues"
+    "url": "https://github.com/rafaeljustinox/justino-utils.git/issues"
   },
-  "homepage": "https://github.com/rafaeljustinox/justino_node_tools.git#readme",
+  "homepage": "https://github.com/rafaeljustinox/justino-utils.git#readme",
   "devDependencies": {
     "ts-node-dev": "^1.1.8",
     "tslint": "^6.1.3",
