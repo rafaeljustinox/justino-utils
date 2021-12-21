@@ -8,8 +8,9 @@ export default class ArrayUtil {
   */
   static chunkArray(myArray, chunk_size) {
     var results = [];
-    while (myArray.length) {
-      results.push(myArray.splice(0, chunk_size));
+    let array = [...myArray]
+    while (array.length) {
+      results.push(array.splice(0, chunk_size));
     }
     return results;
   }
